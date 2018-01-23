@@ -1,0 +1,18 @@
+Package: pjppkgRdata01
+Type: Package
+Version: 0.0.0.9000
+Title: What the Package Does (Title Case)
+Description: Provides datasets for easy loading in R, mainly in my blog
+    R & flowers V (rflowers5.netlify.com).
+Authors@R: person("Pedro J.", "Perez", , "pedro.j.perez@example.com", c("aut", "cre"))
+Maintainer: Pedro J. Perez <pjperez@uv.es>
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
