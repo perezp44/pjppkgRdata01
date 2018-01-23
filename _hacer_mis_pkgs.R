@@ -36,8 +36,8 @@ edit_r_environ()  #- and use edit_r_environ() to easily access the right file fo
 #- para ellos usethis::edit_r_environ()  y se abre .Renviron y he tenido q poner uan linea mascon:  GITHUB_PAT=número del token (q es un numero largito, 40)
 #- Sys.getenv("GITHUB_PAT")(Con esta instrucción accedes al token)
 
-
-use_github()         #-  activate github (te crea el repositorio)
+#- lo de GITHUB no me ha funcionado
+use_github()         #-  activate github (te crea el repositorio) #- no me chuta
 use_github_labels()  #- labelling issues
 use_github_links()   #- añade links en la file DESCRIPTION
 
