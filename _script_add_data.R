@@ -28,27 +28,26 @@ devtools::document()
 
 
 #----- Instalarlo dsde Local
-# install.packages("C:/Users/perezp/Desktop/a_GIT_2016a/mypkgDataforblog", repos = NULL, type="source")
+# install.packages("C:/Users/perezp/Desktop/a_GIT_2016a/pjppkgRdata01", repos = NULL, type="source")
 # library(mypkgfordata)
 # aa <- data("cod_provincias")
 
 #--- instalarlo desde Github
-#devtools::install_github("perezp44/mypkgDataforblog")
+#devtools::install_github("perezp44/pjppkgRdata01")
 
 #- para ver los datos q tengo
 
 library(tidyverse)
-devtools::install_github("perezp44/mypkgDataforblog")
-library(mypkgDataforblog)
+library(pjppkgRdata01)
 
 data(cod_provincias)
 
-ls("package:mypkgDataforblog", all = TRUE) #- ves lo que hay en mypkgDataforblog
-aa <- ls("package:mypkgDataforblog", all = TRUE) %>% as.data.frame()#- ves lo que hay en mypkgDataforblog
+ls("package:pjppkgRdata01", all = TRUE) #- ves lo que hay en mypkgDataforblog
+aa <- ls("package:pjppkgRdata01", all = TRUE) %>% as.data.frame()#- ves lo que hay en mypkgDataforblog
 
-??mypkgDataforblog
+??pjppkgRdata01
 
-vignette(package = "mypkgDataforblog")
+vignette(package = "pjppkgRdata01")
 
 bb <- padron_15_x_nac_res
 

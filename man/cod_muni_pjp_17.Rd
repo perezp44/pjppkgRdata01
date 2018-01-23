@@ -4,7 +4,7 @@
 \name{cod_muni_pjp_17}
 \alias{cod_muni_pjp_17}
 \title{cod_muni_pjp_17.rda}
-\format{A data frame with 8125 rows and 11 variables:
+\format{A data frame with 8124 rows and 11 variables:
 \itemize{
 \item INECodCCAA: Código de CCAA
 \item INECodProv: Código de la provincia

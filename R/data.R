@@ -69,7 +69,7 @@
 #' Mas detalles en /data-raw/make-datasets.R
 #'
 #'
-#' @format A data frame with 8125 rows and 11 variables:
+#' @format A data frame with 8124 rows and 11 variables:
 #' \itemize{
 #'   \item INECodCCAA: Código de CCAA
 #'   \item INECodProv: Código de la provincia
