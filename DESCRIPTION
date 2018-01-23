@@ -1,7 +1,7 @@
 Package: pjppkgRdata01
 Type: Package
 Version: 0.0.0.9000
-Title: What the Package Does (Title Case)
+Title: Datasets to use in my analysis and blog
 Description: Provides datasets for easy loading in R, mainly in my blog
     R & flowers V (rflowers5.netlify.com).
 Authors@R: person("Pedro J.", "Perez", , "pedro.j.perez@example.com", c("aut", "cre"))

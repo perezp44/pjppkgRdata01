@@ -42,7 +42,7 @@ use_github_labels()  #- labelling issues
 use_github_links()   #- añade links en la file DESCRIPTION
 
 #- queda poner el origin de Github (que me extraña que no este en usethis, pero no lo veo)
-#- asi que toca hacerlo a mano en Bash
+#- asi que toca hacerlo a mano en Bash o TERMINAL
 # git remote add origin https://github.com/perezp44/pjppkgdata01.git
 # git push -u origin master
 
